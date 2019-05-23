@@ -1,0 +1,154 @@
+{
+  "app": {
+    "package": "monemazendesk",
+    "description": {
+      "value": "Integración de Monema Empresas con Zendesk. Le permitirá recibir notificaciones de llamadas entrantes, salientes, llamar a sus contactos de Zendesk e identificar las llamadas con el número del contacto.",
+      "title": "Monema Phone System"
+    },
+
+    "name": {
+      "value": "Monema Empresas",
+      "title": "Monema Phone System"
+    },
+
+    "title": {
+      "value": "Monema Empresas",
+      "title": "Monema Phone System"
+    },
+
+    "long_description": {
+      "value": "Esta app permite integrar tu centralita de Monema con Zendesk.\nLas funcionalidades que permite este conector son:\n- Muestra una ventana para las llamadas entrantes con el nombre del llamante. Se pueden ver los últimos tickets del llamante, ver su perfil o crear un nuevo ticket.\n- Se muestran las grabaciones de llamadas con cada ticket.\n- Se puede llamar a un usuario haciendo clic en su ficha.\nPara usar esta app se necesita una cuenta de [Fonema](https://monema.es/centralita-virtual). Si quiere probar la integración puede solicitar una [prueba gratuita](https://monema.es/probar-centralita-virtual/) sin compromiso.",
+      "title": "Long description for marketplace"
+    },
+
+    "installation_instructions": {
+      "value": "To configure the app, access your Monema Control Panel and in Settings / Integrations / Zendesk you will have the information requested when installing.\nPara configurar la app, acceda al Panel de Control de Monema y en el apartado Configuración / Integraciones / Zendesk aparecerá la información solicitada en el momento de la instalación.\nPuede ver los detalles completos de cómo configurarla [aquí](https://monema.es/knowledge-base/configurar-zendesk-fonema/).",
+      "title": "Installation instruction for marketplace"
+    },
+
+    "incoming-calls": {
+      "value": "Llamadas entrantes",
+      "title": "Text to show for incoming calls section"
+    },
+
+    "no-incoming-calls": {
+      "value": "No hay llamadas entrantes",
+      "title": "Text to show when there is no incoming calls"
+    },
+
+    "answered-call": {
+      "value": "Llamada respondida",
+      "title": "Text to show when there is an answere call by the agent"
+    },
+
+    "outgoing-call": {
+      "value": "Llamada saliente",
+      "title": "Text to show when the agent makes a call"
+    },
+
+    "from-name": {
+      "value": "Nombre:",
+      "title": "Name of the caller"
+    },
+
+    "from-number": {
+      "value": "Número de teléfono:",
+      "title": "Phone number of the caller"
+    },
+
+    "duration": {
+      "value": "Duración:",
+      "title": "Duration of the call"
+    },
+
+    "create-ticket": {
+      "value": "Crear Ticket",
+      "title": "Link to create a new ticket"
+    },
+
+    "view-person": {
+      "value": "Ver Usuario",
+      "title": "Link to view person record"
+    },
+
+    "create-person": {
+      "value": "Crear Usuario",
+      "title": "Link to create a new person record"
+    },
+
+    "call-to": {
+      "value": "Llamar a Usuario",
+      "title": "Link to make a call to a user"
+    },
+
+    "recorded-call": {
+      "value": "Llamada grabada",
+      "title": "Text to show with the recorded call control"
+    },
+
+    "no-recorded-call": {
+      "value": "No existe la grabación de la llamada",
+      "title": "Text to show when there is no a call record"
+    },
+
+    "parameters": {
+      "server" : { "label": { "value": "Servidor", "title": "Server field for settings" }},
+      "username": { "label": { "value": "Usuario", "title": "User field for settings" }},
+      "token": { "label": { "value": "Token", "title": "Password field for settings" },"helpText": {"value": "Para usar esta aplicación es necesaria una cuenta de Monema. Si no tiene una puede darse de alta en nuestra web https://www.monema.com", "title": "Text to indicate an account is needed to use the app"} }
+    },
+
+    "call-to-success": {
+      "value": "Llamando a usuario. Responda la llamada para que ésta se inicie.",
+      "title": "Text to show when call is made from Zendesk"
+    }, 
+
+    "call-to-failure": {
+      "value": "Hubo un problema iniciando la llamada. Por favor, intentélo de nuevo.",
+      "title": "Text to show when call could not be done"
+    },
+
+    "last-tickets": {
+      "value": "Últimos Tickets",
+      "title": "Title for last tickets for a person"
+    },
+
+    "no-tickets": {
+      "value": "No hay tickets",
+      "title": "Text to display when there is no tickets"
+    },
+
+    "new": {
+      "value": "Nuevo",
+      "title": "Ticket in status new"
+    },
+    "open": {
+      "value": "Abierto",
+      "title": "Ticket in status open"
+    },
+
+    "pending": {
+      "value": "Pendiente",
+      "title": "There in status pending"
+    },
+
+    "hold": {
+      "value": "En espera",
+      "title": "Ticket in status hold"
+    },
+
+    "solved": {
+      "value": "Resuelto",
+      "title": "Ticket in status solved"
+    },
+
+    "closed": {
+      "value": "Cerrado",
+      "title": "Ticket in status closed"
+    },
+
+    "no-subject": {
+      "value": "Sin asunto",
+      "title": "Ticket without subject"
+    }
+  }
+}

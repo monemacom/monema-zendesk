@@ -1,0 +1,60 @@
+.loader {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
+
+.topbarmain {
+	padding: 12px 10px;
+} 
+
+#no-incoming-calls {
+	padding: 12px 0px 12px 0px;
+} 
+
+.incoming-call {
+	padding: 12px 0px 12px 0px;	
+}
+
+#answered-call-header {
+	padding: 12px 0px 12px 0px;
+}
+
+#outgoing-call-header {
+	padding: 12px 0px 12px 0px;
+}
+
+.showticket {
+	cursor: pointer;
+}
+
+#actions {
+	padding: 12px 0px 0px 0px;
+}
+
+#newticket {
+	float: left;
+	margin-left: 20px;
+	text-transform: uppercase;
+}
+
+#viewperson {
+	float: right;
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+
+#createperson {
+	float: right;
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+
+#callto {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 90%;
+	text-transform: uppercase;
+}

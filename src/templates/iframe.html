@@ -1,0 +1,16 @@
+<!-- <%= htmlWebpackPlugin.options.warning %> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <% _.forEach(htmlWebpackPlugin.options.vendorCss, function(css) { %><link href="<%= css %>" rel="stylesheet"><% }); %>
+    <script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <section data-main class="main">
+      <img class="loader" src="spinner.gif"/>
+    </section>
+    <% _.forEach(htmlWebpackPlugin.options.vendorJs, function(js) { %><script type="text/javascript" src="<%= js %>"></script><% }); %>
+  </body>
+</html>

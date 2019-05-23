@@ -1,0 +1,154 @@
+{
+  "app": {
+    "package": "monemazendesk",
+    "description": {
+      "value": "Integrates Monema Phone System with Zendesk. It allows you to receive call notifications via popup, make calls with one click and identify your callers via Zendesk.",
+      "title": "Monema Phone System"
+    },
+
+    "name": {
+      "value": "Monema Phone System",
+      "title": "Monema Phone System"
+    },
+
+    "title": {
+      "value": "Monema Phone System",
+      "title": "Monema Phone System"
+    },
+
+    "long_description": {
+      "value": "This connector allows you to integrate your Monema phone system with Zendesk.\nThe features this connector enables are these:\n- Popup for incoming calls showing the name of the caller. You can view last tickets from the caller, their profile or create a new ticket.\n- Call recordings are shown with tickets.\n- You can call a user clicking on their profile.\nTo use app you need a [Fonema](https://monema.es/centralita-virtual) account. If you want to try it you can request a [free 30 day demo](https://monema.es/probar-centralita-virtual/).",
+      "title": "Long description for marketplace"
+    },
+
+    "installation_instructions": {
+      "value": "To configure the app, access your Monema Control Panel and in Settings / Integrations / Zendesk you will have the information requested when installing.\nYou can view full installation details [here](https://www.monema.com/en/control-panel/settings/zendesk-connector/installation.html).",
+      "title": "Installation instruction for marketplace"
+    },
+
+    "incoming-calls": {
+      "value": "Incoming calls",
+      "title": "Text to show for incoming calls section"
+    },
+
+    "no-incoming-calls": {
+      "value": "No incoming calls",
+      "title": "Text to show when there is no incoming calls"
+    },
+
+    "answered-call": {
+      "value": "Answered call",
+      "title": "Text to show when there is an answere call by the agent"
+    },
+
+    "outgoing-call": {
+      "value": "Outgoing call",
+      "title": "Text to show when the agent makes a call"
+    },
+
+    "from-name": {
+      "value": "Name:",
+      "title": "Name of the caller"
+    },
+
+    "from-number": {
+      "value": "Phone number:",
+      "title": "Phone number of the caller"
+    },
+
+    "duration": {
+      "value": "Duration:",
+      "title": "Duration of the call"
+    },
+
+    "create-ticket": {
+      "value": "Create Ticket",
+      "title": "Link to create a new ticket"
+    },
+
+    "view-person": {
+      "value": "View User",
+      "title": "Link to view person record"
+    },
+
+    "create-person": {
+      "value": "Create User",
+      "title": "Link to create a new person record"
+    },
+
+    "call-to": {
+      "value": "Call user",
+      "title": "Link to make a call to a user"
+    },
+
+    "recorded-call": {
+      "value": "Recorded call",
+      "title": "Text to show with the recorded call control"
+    },
+
+    "no-recorded-call": {
+      "value": "There is no call record for this call",
+      "title": "Text to show when there is no a call record"
+    },
+
+    "parameters": {
+      "server" : { "label": { "value": "Server", "title": "Server field for settings" }},
+      "username": { "label": { "value": "User", "title": "User field for settings" }},
+      "token": { "label": { "value": "Token", "title": "Token field for settings" }, "helpText": {"value": "A Monema account is needed to use this app. If you don't have one you can sign-up from our web https://www.monema.com", "title": "Text to indicate an account is needed to use the app"} }
+    },
+
+    "call-to-success": {
+      "value": "Calling user. Please answer your phone to make the call.",
+      "title": "Text to show when call is made from Zendesk"
+    }, 
+
+    "call-to-failure": {
+      "value": "There where a problem when calling user. Please try again.",
+      "title": "Text to show when call could not be done"
+    },
+
+    "last-tickets": {
+      "value": "Last Tickets",
+      "title": "Title for last tickets for a person"
+    },
+
+    "no-tickets": {
+      "value": "There are no tickets",
+      "title": "Text to display when there is no tickets"
+    },
+
+    "new": {
+      "value": "New",
+      "title": "Ticket in status new"
+    },
+    "open": {
+      "value": "Open",
+      "title": "Ticket in status open"
+    },
+
+    "pending": {
+      "value": "Pending",
+      "title": "There in status pending"
+    },
+
+    "hold": {
+      "value": "Hold",
+      "title": "Ticket in status hold"
+    },
+
+    "solved": {
+      "value": "Solved",
+      "title": "Ticket in status solved"
+    },
+
+    "closed": {
+      "value": "Closed",
+      "title": "Ticket in status closed"
+    },
+
+    "no-subject": {
+      "value": "No subject",
+      "title": "Ticket without subject"
+    }
+  }
+}
