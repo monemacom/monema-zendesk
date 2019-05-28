@@ -1,7 +1,5 @@
 {
-  "name": "Monema Phone System",
-  "short_description": "Integration with Monema phone systems",
-  "long_description": "This connector allows you to integrate your Monema phone system with Zendesk.\nThe features this connector enables are these:\n- Popup for incoming calls showing the name of the caller. You can view last tickets from the caller, their profile or create a new ticket.\n- Call recordings are shown with tickets.\n- You can call a user clicking on their profile.\nTo use app you need a [Fonema](https://monema.es/centralita-virtual) account. If you want to try it you can request a [free 30 day demo](https://monema.es/probar-centralita-virtual/).",
+  "name": "Monema Phone System",  
   "author": {
     "name": "Monema Communications SL",
     "email": "info@monema.com",

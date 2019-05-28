@@ -1,10 +1,6 @@
 {
   "app": {
     "package": "monemazendesk",
-    "description": {
-      "value": "Integración de Monema Empresas con Zendesk. Le permitirá recibir notificaciones de llamadas entrantes, salientes, llamar a sus contactos de Zendesk e identificar las llamadas con el número del contacto.",
-      "title": "Monema Phone System"
-    },
 
     "name": {
       "value": "Monema Empresas",
@@ -16,13 +12,18 @@
       "title": "Monema Phone System"
     },
 
+    "short_description": {
+      "value": "Integración con centralitas virtuales de Monema",
+      "title": "Short description for marketplace"
+    },
+
     "long_description": {
-      "value": "Esta app permite integrar tu centralita de Monema con Zendesk.\nLas funcionalidades que permite este conector son:\n- Muestra una ventana para las llamadas entrantes con el nombre del llamante. Se pueden ver los últimos tickets del llamante, ver su perfil o crear un nuevo ticket.\n- Se muestran las grabaciones de llamadas con cada ticket.\n- Se puede llamar a un usuario haciendo clic en su ficha.\nPara usar esta app se necesita una cuenta de [Fonema](https://monema.es/centralita-virtual). Si quiere probar la integración puede solicitar una [prueba gratuita](https://monema.es/probar-centralita-virtual/) sin compromiso.",
+      "value": "**Disponible solo para agentes con puestos “Talk - Partner Edition” (ver [zendesk.com/talk/pricing](https://www.zendesk.com/talk/pricing).**\n\nEsta app permite integrar tu centralita de Monema con Zendesk.\n\nLas funcionalidades que permite este conector son:\n- Muestra una ventana para las llamadas entrantes con el nombre del llamante. Se pueden ver los últimos tickets del llamante, ver su perfil o crear un nuevo ticket.\n- Se muestran las grabaciones de llamadas con cada ticket.\n- Se puede llamar a un usuario haciendo clic en su ficha.\n\nPara usar esta app se necesita una cuenta de [Fonema](https://monema.es/centralita-virtual). Si quiere probar la integración puede solicitar una [prueba gratuita](https://monema.es/probar-centralita-virtual/) sin compromiso.",
       "title": "Long description for marketplace"
     },
 
     "installation_instructions": {
-      "value": "To configure the app, access your Monema Control Panel and in Settings / Integrations / Zendesk you will have the information requested when installing.\nPara configurar la app, acceda al Panel de Control de Monema y en el apartado Configuración / Integraciones / Zendesk aparecerá la información solicitada en el momento de la instalación.\nPuede ver los detalles completos de cómo configurarla [aquí](https://monema.es/knowledge-base/configurar-zendesk-fonema/).",
+      "value": "To configure the app, access your Monema Control Panel and in Settings / Integrations / Zendesk you will have the information requested when installing.\n\nPara configurar la app, acceda al Panel de Control de Monema y en el apartado Configuración / Integraciones / Zendesk aparecerá la información solicitada en el momento de la instalación.\n\nPuede ver los detalles completos de cómo configurarla [aquí](https://monema.es/knowledge-base/configurar-zendesk-fonema/).",
       "title": "Installation instruction for marketplace"
     },
 
