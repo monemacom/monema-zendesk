@@ -1,0 +1,45 @@
+{
+  "_warning": "AUTOMATICALLY GENERATED FROM $/src/translations/en.json - DO NOT MODIFY THIS FILE DIRECTLY",
+  "app": {
+    "name": {
+      "value": "Monema Phone System",
+      "title": "Monema Phone System"
+    },
+    "short_description": {
+      "value": "Integration with Monema phone systems",
+      "title": "Short description for marketplace"
+    },
+    "long_description": {
+      "value": "**Available only to agents with 'Talk' plans (see [About Zendesk Talk plan types](https://support.zendesk.com/hc/en-us/articles/4408833956122-About-Zendesk-Talk-plan-types).**\n\nThis connector allows you to integrate your Monema phone system with Zendesk.\n\nThe features this connector enables are these:\n\n- Popup for incoming calls showing the name of the caller. You can view last tickets from the caller, their profile or create a new ticket.\n- Call recordings are shown with tickets.\n- You can call a user clicking on their profile.\n\nData disclosure:\n\n- Names of customers and organizations\n- Phone numbers of customers and organizations\n- Tickets of contacts and organizations\n\nTo use app you need a [Monema](https://monema.es/centralita-virtual) account. If you want to try it you can request a [free 7 day free trial](https://monema.es/probar-centralita-virtual/).\n\n",
+      "title": "Long description for marketplace"
+    },
+    "installation_instructions": {
+      "value": "To configure the app, access your Monema Control Panel and in Settings / Integrations / Zendesk you will have the information requested when installing.\n\nYou can view full installation details [here](https://www.monema.com/en/control-panel/settings/zendesk-connector/installation.html).",
+      "title": "Installation instruction for marketplace"
+    },
+    "parameters": {
+      "server": {
+        "label": {
+          "value": "Server",
+          "title": "Server field for settings"
+        }
+      },
+      "username": {
+        "label": {
+          "value": "User",
+          "title": "User field for settings"
+        }
+      },
+      "token": {
+        "label": {
+          "value": "Token",
+          "title": "Token field for settings"
+        },
+        "helpText": {
+          "value": "A Monema account is needed to use this app. If you don't have one you can sign-up from our web https://www.monema.com",
+          "title": "Text to indicate an account is needed to use the app"
+        }
+      }
+    }
+  }
+}
