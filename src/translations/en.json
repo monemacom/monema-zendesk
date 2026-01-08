@@ -18,7 +18,7 @@
     },
 
     "long_description": {
-      "value": "**Available only to agents with “Talk - Partner Edition” seats (see [zendesk.com/talk/pricing](https://www.zendesk.com/talk/pricing).**\n\nThis connector allows you to integrate your Monema phone system with Zendesk.\n\nThe features this connector enables are these:\n\n- Popup for incoming calls showing the name of the caller. You can view last tickets from the caller, their profile or create a new ticket.\n- Call recordings are shown with tickets.\n- You can call a user clicking on their profile.\n\nTo use app you need a [Fonema](https://monema.es/centralita-virtual) account. If you want to try it you can request a [free 30 day demo](https://monema.es/probar-centralita-virtual/).",
+      "value": "**Available only to agents with 'Talk' plans (see [About Zendesk Talk plan types](https://support.zendesk.com/hc/en-us/articles/4408833956122-About-Zendesk-Talk-plan-types).**\n\nThis connector allows you to integrate your Monema phone system with Zendesk.\n\nThe features this connector enables are these:\n\n- Popup for incoming calls showing the name of the caller. You can view last tickets from the caller, their profile or create a new ticket.\n- Call recordings are shown with tickets.\n- You can call a user clicking on their profile.\n\nData disclosure:\n\n- Names of customers and organizations\n- Phone numbers of customers and organizations\n- Tickets of contacts and organizations\n\nTo use app you need a [Monema](https://monema.es/centralita-virtual) account. If you want to try it you can request a [free 7 day free trial](https://monema.es/probar-centralita-virtual/).\n\n",
       "title": "Long description for marketplace"
     },
 
