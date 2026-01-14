@@ -15,7 +15,7 @@
       "background": "assets/iframe.html"
     }
   },
-  "version": "2.3",
+  "version": "2.5",
   "frameworkVersion": "2.0",
     "parameters": [
   {
@@ -36,7 +36,10 @@
     "name": "token",
     "type": "text",
     "required": true,
-    "secure": true
+    "secure": true,
+    "scopes": [
+      "body"
+    ]
   }
 ]
 }
