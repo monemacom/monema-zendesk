@@ -36,7 +36,7 @@
     "name": "token",
     "type": "text",
     "required": true,
-    "secure": false
+    "secure": true
   }
 ]
 }

@@ -34,6 +34,9 @@ class App {
         this._topBarClient;
 
         this._currentUser;
+        this._updateTimerId = null;
+        this._updateIntervalId = null;
+        this._destroyed = false;
 
         // Sólo registramos los eventos en el iframe del top_bar
         if (this._location == 'top_bar') {
@@ -49,6 +52,8 @@ class App {
             // Cuando el usuario hace clic en el icono de la app del top bar
             client.on("pane.activated", this._paneActivated.bind(this));            
         }
+
+        this._client.on('app.willDestroy', this._willDestroy.bind(this));
 
         // this.initializePromise is only used in testing
         // indicate app initilization(including all async operations) is complete
@@ -123,13 +128,18 @@ class App {
      * @param {Object} error error object
      */
     _handleError(error) {
-        console.log('An error is handled here: ', error.message)
+        this._lastError = error;
     }
 
     /**
      * Update template
      */
     _updateTemplate() {
+        if (this._updateTimerId) {
+            clearTimeout(this._updateTimerId);
+            this._updateTimerId = null;
+        }
+
         var html;
         if (!this._CALLS.length) {
             html = '<span class="incoming-calls"><ul><li id="no-incoming-calls">';
@@ -217,7 +227,8 @@ class App {
         }        
         if (this._CALLS.length || this._onCall) {
             var that = this;
-            var timer = setTimeout(function() {
+            this._updateTimerId = setTimeout(function() {
+                if (that._destroyed) return;
                 that._updateTemplate();
             }, 1000);
         }
@@ -231,6 +242,18 @@ class App {
         $('#createperson').bind('click',$.proxy(this._createPerson, this));        
 
         return resizeContainer(this._client, MAX_HEIGHT, '375px');
+    }
+
+    _willDestroy() {
+        this._destroyed = true;
+        if (this._updateTimerId) {
+            clearTimeout(this._updateTimerId);
+            this._updateTimerId = null;
+        }
+        if (this._updateIntervalId) {
+            clearInterval(this._updateIntervalId);
+            this._updateIntervalId = null;
+        }
     }
 
     _formatDuration(start_time) {
