@@ -24,7 +24,7 @@ class App {
 
         this._settingsUrl = 'https://' + appData.metadata.settings.server + '/events_manager/';
         this._settingsUser = appData.metadata.settings.username;
-        this._settingsToken = appData.metadata.settings.token;
+        this._settingsToken = appData.metadata.settings.api_token;
 
         this._location = appData.context.location;
 

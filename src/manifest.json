@@ -17,6 +17,7 @@
   },
   "version": "2.5",
   "frameworkVersion": "2.0",
+  "domainWhitelist": [ "{{setting.server}}" ],
     "parameters": [
   {
     "name": "server",
@@ -33,7 +34,7 @@
   },
 
   {
-    "name": "token",
+    "name": "api_token",
     "type": "text",
     "required": true,
     "secure": true,

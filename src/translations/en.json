@@ -95,7 +95,7 @@
     "parameters": {
       "server" : { "label": { "value": "Server", "title": "Server field for settings" }},
       "username": { "label": { "value": "User", "title": "User field for settings" }},
-      "token": { "label": { "value": "Token", "title": "Token field for settings" }, "helpText": {"value": "A Monema account is needed to use this app. If you don't have one you can sign-up from our web https://www.monema.com", "title": "Text to indicate an account is needed to use the app"} }
+      "api_token": { "label": { "value": "Token", "title": "Token field for settings" }, "helpText": {"value": "A Monema account is needed to use this app. If you don't have one you can sign-up from our web https://www.monema.com", "title": "Text to indicate an account is needed to use the app"} }
     },
 
     "call-to-success": {
