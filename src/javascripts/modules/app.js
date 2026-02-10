@@ -26,6 +26,12 @@ class App {
         this._settingsUser = appData.metadata.settings.username;
         this._settingsToken = appData.metadata.settings.api_token;
 
+        this._marketplaceHeaders = {
+            'X-Zendesk-Marketplace-Name': 'Monema Phone System',
+            'X-Zendesk-Marketplace-Organization-Id': 744,
+            'X-Zendesk-Marketplace-App-Id': this._appId
+        };
+
         this._location = appData.context.location;
 
         this._CALLS = [];
@@ -411,6 +417,7 @@ class App {
     _notifyAppId() {    
         var options = {        
          url:  this._settingsUrl + 'ZenDesk_updateAppId',
+         headers: this._marketplaceHeaders,
          cors: true,
          data: {login: this._settingsUser, t: this._settingsToken, app_id: this._appId },
          dataType: 'json'
@@ -422,6 +429,7 @@ class App {
      _requestCreateTicket(agent_id, person_id, hash, tt_url, id, clientid, direction, answertime, recorded) {
        var options = {
          url:  tt_url + 'ZenDesk_CreateTicket',
+         headers: this._marketplaceHeaders,
          cors: true,
          data: {agent_id: agent_id, person: person_id, h: hash, uuid: id, client_id: clientid, call_direction: direction, answer_time: answertime, recorded_url: recorded}
        };
@@ -431,6 +439,7 @@ class App {
     _requestOpenPersonTab(agent_id, person_id, hash, tt_url, id, clientid) {
        var options = {
          url:  tt_url + 'ZenDesk_ViewPerson',
+         headers: this._marketplaceHeaders,
          cors: true,
          data: {agent_id: agent_id, person: person_id, h: hash, uuid: id, client_id: clientid}
        };
@@ -440,6 +449,7 @@ class App {
      _requestCreatePerson(agent_id, hash, tt_url, id, clientid, phone, original_phone) {
        var options = {
          url:  tt_url + 'ZenDesk_CreatePerson',
+         headers: this._marketplaceHeaders,
          cors: true,
          data: {agent_id: agent_id, h: hash, uuid: id, client_id: clientid, phone_number: phone, original_phone_number: original_phone}
        };
@@ -449,6 +459,7 @@ class App {
      _requestGetRecordedUrl(ticket_id, tt_url, user, token) {
        var options = {
          url:  tt_url + 'ZenDesk_getRecordedUrl',
+         headers: this._marketplaceHeaders,
          cors: true,
          data: {ticket: ticket_id, login: user, t: token },
          dataType: 'json'
@@ -460,6 +471,7 @@ class App {
     _requestCallTo(agent_id, person_id, tt_url, user, token) {
        var options = {
          url:  tt_url + 'ZenDesk_CallTo',
+         headers: this._marketplaceHeaders,
          cors: true,
          data: {agent_id: agent_id, person: person_id, login: user, t: token },
          dataType: 'json'
@@ -472,6 +484,7 @@ class App {
      _requestViewTicket(agent_id, ticket_id, hash, tt_url, id, clientid) {
        var options = {
          url:  tt_url + 'ZenDesk_ViewTicket',
+         headers: this._marketplaceHeaders,
          cors: true,
          data: {agent_id: agent_id, ticket: ticket_id, h: hash, uuid: id, client_id: clientid}
        };
