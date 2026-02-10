@@ -15,7 +15,7 @@
       "background": "assets/iframe.html"
     }
   },
-  "version": "2.6",
+  "version": "2.7",
   "frameworkVersion": "2.0",
   "domainWhitelist": [ "{{setting.server}}" ],
     "parameters": [
