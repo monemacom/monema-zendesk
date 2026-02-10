@@ -36,6 +36,7 @@
   {
     "name": "api_token",
     "type": "text",
+    "scopes": ["body"],
     "required": true,
     "secure": true
   }
