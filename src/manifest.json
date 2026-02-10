@@ -15,7 +15,7 @@
       "background": "assets/iframe.html"
     }
   },
-  "version": "2.5",
+  "version": "2.6",
   "frameworkVersion": "2.0",
   "domainWhitelist": [ "{{setting.server}}" ],
     "parameters": [
@@ -37,10 +37,7 @@
     "name": "api_token",
     "type": "text",
     "required": true,
-    "secure": true,
-    "scopes": [
-      "body"
-    ]
+    "secure": true
   }
 ]
 }

@@ -30,7 +30,7 @@
           "title": "User field for settings"
         }
       },
-      "token": {
+      "api_token": {
         "label": {
           "value": "Token",
           "title": "Token field for settings"

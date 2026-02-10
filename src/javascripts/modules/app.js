@@ -29,7 +29,7 @@ class App {
         this._marketplaceHeaders = {
             'X-Zendesk-Marketplace-Name': 'Monema Phone System',
             'X-Zendesk-Marketplace-Organization-Id': 744,
-            'X-Zendesk-Marketplace-App-Id': this._appId
+            'X-Zendesk-Marketplace-App-Id': 85798
         };
 
         this._location = appData.context.location;
